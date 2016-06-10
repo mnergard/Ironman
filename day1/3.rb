@@ -33,7 +33,7 @@ prices = homes.map do |hm|
   hm.price
 end
 
-puts prices.sort.reverse 
+puts prices.sort.reverse
 puts "-------------reduce-------------------------"
 
 sum_prices = prices.reduce(0.0) do |sum, price|
